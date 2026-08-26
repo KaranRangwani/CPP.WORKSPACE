@@ -25,7 +25,9 @@ else if (op == '/'){
 cout<< firstnumber / secondnumber<<endl ; }
 else if (op == '%'){  
 cout<< firstnumber * secondnumber/100<<endl; }
-if (secondnumber == 0 ){
+ if (secondnumber == 0 && op == '/'){
     cout<<"Error in division, can't be divivded by zero !"<<endl ;}
+    else if(op != '+' && op != '-' && op != '*' && op != '/' &&  op != '%' ) {
+        cout<<"Error , please enter valid operation !!!!"<<endl ;}     
 return 0 ; 
 }
