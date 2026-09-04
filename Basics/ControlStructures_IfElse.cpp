@@ -17,16 +17,14 @@ int main(){
        switch (age){
         case 18 : 
         cout<<"You can vote !!"<<endl ;
-        // code to be executed if expression = 1
         break ; 
         case 70 : 
         cout<<"You can vote but need to verify your voter card !!"<<endl ;
-        // code to be executed if expression = 2
         break ; 
         case 17 :  
         cout<<"You cant vote !!"<<endl ;
         break ; 
         default : 
-        cout<<"You are not eligible to vote !!"<<endl ;
+        cout<<"No special cases!!"<<endl ;
        }
     }
