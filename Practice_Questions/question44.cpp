@@ -11,13 +11,7 @@ int main () {
         sum = sum + rem ; 
         n = n/10 ; 
         count++ ;
-        
-    
-    
-    }
-
-        
-        
+    }     
     cout<<"The number of digits in the number is "<<count<<endl;
     cout<<"The sum of digits in the number is "<<sum<<endl;
     return 0 ;
